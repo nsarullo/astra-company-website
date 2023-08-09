@@ -2017,7 +2017,7 @@ input[type=range]::-moz-focus-outer {
 }
 
 .from-slate-100 {
-  --tw-gradient-from: #f1f5f9;
+  --tw-gradient-from: #d3e9ff;
   --tw-gradient-to: rgb(241 245 249 / 0);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
