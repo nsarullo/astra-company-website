@@ -835,6 +835,74 @@ select {
   }
 }
 
+/* .stacked-images {
+  position: relative;
+  width: 40rem;
+  height: 21.6rem;
+  margin-left: 5rem;  
+  margin-top: 2.5rem;
+}
+
+.stacked {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: fit;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease-in-out;
+  z-index: 0;
+  will-change: transform;
+}
+
+.stacked:hover {
+  transform: scale(1.25);
+  z-index: 1;
+}
+
+.stacked-1 {
+  transform: rotate(-2deg) translateY(45px) translateX(-45px);
+}
+
+.stacked-2 {
+  transform: rotate(1deg);
+}
+
+.stacked-3 {
+  transform: rotate(2deg) translateY(-45px) translateX(45px); 
+} */
+
+.static-header-image {
+  position: relative;
+  width: 40rem;
+  height: 21.6rem;
+
+  margin-top: 1rem;
+  margin-left:2.5rem;
+}
+
+.static-header-image img{
+  image-rendering: crisp-edges;
+}
+
+#responsive-svg {
+  width: 720px;
+  height: 390px;
+}
+@media (max-width: 768px) { 
+  #responsive-svg {
+      width: 500px;  
+      height: 275px;  
+  }
+}
+
+@media (max-width: 480px) { 
+  #responsive-svg {
+      width: 320px;  
+      height: 173px;  
+  }
+}
+
 /* Additional styles */
 
 /* Typography */
@@ -2218,6 +2286,12 @@ input[type=range]::-moz-focus-outer {
   line-height: 1.5715;
 }
 
+.text-md{
+  font-size: 1rem;
+  line-height: 1.53575;
+  letter-spacing: -0.005em;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.5;
@@ -2710,13 +2784,34 @@ input[type=range]::-moz-focus-outer {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+@media (min-width: 320px){
+  .xsm\:text-xsm {
+    font-size: 0.75rem !important;
+    line-height: 1.33333 !important;
+    letter-spacing: 0.03333em !important;
+  }
+}
+
 @media (min-width: 640px) {
+  .sm\:text-center {
+    text-align: center;
+  }
   .sm\:col-span-12 {
     grid-column: span 12 / span 12;
   }
 
   .sm\:col-span-6 {
     grid-column: span 6 / span 6;
+  }
+
+  .sm\:text-md{
+    font-size: 1rem !important;
+    line-height: 1.53575 !important;
+    letter-spacing: -0.005em !important;
+  }
+
+  .sm\:text-left {
+    text-align: left;
   }
 
   .sm\:-mx-6 {
@@ -2780,6 +2875,12 @@ input[type=range]::-moz-focus-outer {
     position: absolute;
   }
 
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 1.415;
+    letter-spacing: -0.01em;
+  }
+
   .md\:left-\[600px\] {
     left: 600px;
   }
@@ -2792,6 +2893,10 @@ input[type=range]::-moz-focus-outer {
     left: 412px;
   }
 
+  .md\:left-\[580px\] {
+    left: 580px;
+  }
+
   .md\:left-auto {
     left: auto;
   }
@@ -2802,6 +2907,10 @@ input[type=range]::-moz-focus-outer {
 
   .md\:col-span-3 {
     grid-column: span 3 / span 3;
+  }
+
+  .md\:col-span-4{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
   .md\:mx-0 {
@@ -2836,6 +2945,10 @@ input[type=range]::-moz-focus-outer {
 
   .md\:mr-8 {
     margin-right: 2rem;
+  }
+
+  .md\:ml-3r {
+    margin-left: 3rem;
   }
 
   .md\:ml-8 {
@@ -3131,4 +3244,48 @@ input[type=range]::-moz-focus-outer {
   .xl\:pl-20 {
     padding-left: 5rem;
   }
+}
+
+ .gradient-1{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url('./images/hero-illustration2.svg'); 
+  background-size: cover; 
+  background-position: center center; 
+  overflow: hidden;
+  border-top-right-radius: 6.2rem;
+
+
+}
+
+.gradient-1::before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color: rgba(50, 116, 234, 0.3);
+  border-top-right-radius: 6.2rem;
+} 
+
+
+.neon-glow {
+  border-radius: 4rem;
+  padding:2rem;
+  box-shadow: 0px 0px 20px rgba(60, 130, 240, 0.8);
+}
+
+.non-neon-glow-left{
+  border-radius: 4rem;
+  padding:2rem;
+  box-shadow: 0px 0px 5px rgba(222, 235, 252, 0.8);
+  background: linear-gradient(to left, rgba(40, 129, 224, 0.08) 50%, rgba(30, 41, 57, 0.9) 100%);
+}
+.non-neon-glow-right{
+  border-radius: 4rem;
+  padding:2rem;
+  box-shadow: 0px 0px 5px rgba(222, 235, 252, 0.8);
+  background: linear-gradient(to right, rgba(40, 129, 224, 0.08) 50%, rgba(30, 41, 57, 0.9) 100%);
 }
