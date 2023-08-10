@@ -889,10 +889,17 @@ select {
   width: 684px;
   height: 371px;
 }
-@media (max-width: 768px) { 
+@media (max-width: 1112px) { 
   #responsive-svg {
       width: 500px;  
       height: 275px;  
+  }
+}
+
+@media (max-width: 768px) { 
+  #responsive-svg {
+      width: 400px;  
+      height: 220px;  
   }
 }
 
