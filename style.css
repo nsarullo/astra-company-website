@@ -2792,7 +2792,39 @@ input[type=range]::-moz-focus-outer {
   }
 }
 
+.default-footer-flex{
+  display:flex; 
+  flex-direction: column;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.default-footer-flex-sub{
+  display:flex; 
+  flex-direction: column;
+  gap:2rem;
+  justify-content: space-between; 
+  align-items: center;
+}
+
 @media (min-width: 640px) {
+
+  .sm\:footer-flex{
+    display:flex; 
+    flex-direction: row;
+    gap:3rem; 
+    justify-content: space-between; 
+    align-items: center;
+  }
+
+  .sm\:text-end {
+    text-align: end;
+  }
+
+  .sm\:justify-end {
+    justify-content: end;
+  }
+
   .sm\:text-center {
     text-align: center;
   }
