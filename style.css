@@ -1801,7 +1801,14 @@ input[type=range]::-moz-focus-outer {
 .h-full {
   height: 100%;
 }
-
+.other-button{
+  background-color:rgba(222,235,253); 
+  color:rgba(30,41,57);
+}
+.other-button:hover{
+  background-color:rgb(211, 213, 213); 
+  color:rgba(30,41,57);
+}
 .h-3 {
   height: 0.75rem;
 }
