@@ -2989,6 +2989,12 @@ input[type=range]::-moz-focus-outer {
     justify-content: center;
   }
 
+  .sm\:text-s {
+    font-size: 1.5rem;
+    line-height: 1.415;
+    letter-spacing: -0.01em;
+  }
+
   .sm\:space-x-4> :not([hidden])~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(1rem * var(--tw-space-x-reverse));
@@ -3020,9 +3026,9 @@ input[type=range]::-moz-focus-outer {
   }
 
   .md\:text-xl {
-    font-size: 1rem;
-    line-height: 1.4;
-    letter-spacing: -0.0064em;
+    font-size: 1.25rem;
+    line-height: 1.75;
+    letter-spacing: -0.008em;
   }
 
   .md\:left-\[600px\] {
