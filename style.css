@@ -938,6 +938,12 @@ select {
   position: relative;
 }
 
+@media(min-width:769px) and (max-width:1115px){
+  #responsive-svg {
+  display:none;
+  }
+}
+
 /* #deal-card {
   width: 173.027875px;
   height: 199.4315625px;
@@ -3004,6 +3010,7 @@ input[type=range]::-moz-focus-outer {
   .md\:absolute {
     position: absolute;
   }
+  
 
   .md\:text-2xl {
     font-size: 1.5rem;
@@ -3262,6 +3269,8 @@ input[type=range]::-moz-focus-outer {
 }
 
 @media (min-width: 1024px) {
+
+
   .lg\:col-span-2 {
     grid-column: span 2 / span 2;
   }
