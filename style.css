@@ -938,7 +938,7 @@ select {
   position: relative;
 }
 
-@media(min-width:769px) and (max-width:1115px){
+@media(min-width:769px) and (max-width:970px){
   #responsive-svg {
   display:none;
   }
@@ -2413,6 +2413,7 @@ input[type=range]::-moz-focus-outer {
   letter-spacing: -0.01em;
 }
 
+
 .text-4xl {
   font-size: 2.25rem;
   line-height: 1.1;
@@ -3016,6 +3017,12 @@ input[type=range]::-moz-focus-outer {
     font-size: 1.5rem;
     line-height: 1.415;
     letter-spacing: -0.01em;
+  }
+
+  .md\:text-xl {
+    font-size: 1.375rem;
+    line-height: 1.925;
+    letter-spacing: -0.0088em;
   }
 
   .md\:left-\[600px\] {
