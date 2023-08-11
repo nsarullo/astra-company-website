@@ -1001,7 +1001,8 @@ select {
   .responsive-value {
     width: 350px;
     height: 190px;
-    margin-left:3.855rem;
+    margin-left:auto;
+    margin-right: auto;
   } 
 }  
 
@@ -1036,7 +1037,8 @@ select {
   .responsive-deal {
     width: 350px;
     height: 190px;
-    margin-left:0rem;
+    margin-left:auto;
+    margin-right: auto;
   } 
 }  
 
