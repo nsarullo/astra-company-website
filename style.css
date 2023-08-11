@@ -3020,9 +3020,9 @@ input[type=range]::-moz-focus-outer {
   }
 
   .md\:text-xl {
-    font-size: 1.375rem;
-    line-height: 1.925;
-    letter-spacing: -0.0088em;
+    font-size: 1.25rem;
+    line-height: 1.75;
+    letter-spacing: -0.008em;
   }
 
   .md\:left-\[600px\] {
