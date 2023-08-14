@@ -1006,6 +1006,11 @@ select {
   } 
 }  
 
+.c-li{
+  margin-left: 2rem;
+  display: list-item !important;
+}
+
 .responsive-deal{
   width: 692px;
   height: 375px;
@@ -1050,6 +1055,14 @@ select {
 /* Additional styles */
 
 /* Typography */
+
+.c-ul{
+  padding-left:1.5rem; 
+  padding-top:2rem; 
+  line-height: 3rem; 
+  list-style-type:disc;
+}
+
 
 .h1 {
   font-size: 2.75rem;
@@ -3165,8 +3178,12 @@ input[type=range]::-moz-focus-outer {
     margin-left: 2rem;
   }
 
+  /* .md\:mb-10 {
+    margin-bottom: 3rem;
+  } */
+
   .md\:mb-20 {
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
   }
 
   .md\:block {
@@ -3471,7 +3488,7 @@ input[type=range]::-moz-focus-outer {
   background-size: cover;
   background-position: center center;
   overflow: hidden;
-  border-top-right-radius: 6.2rem;
+  /* border-top-right-radius: 6.2rem; */
 
 
 }
@@ -3484,7 +3501,7 @@ input[type=range]::-moz-focus-outer {
   width: 100%;
   height: 100%;
   background-color: rgba(50, 116, 234, 0.3);
-  border-top-right-radius: 6.2rem;
+  /* border-top-right-radius: 6.2rem; */
 }
 
 
