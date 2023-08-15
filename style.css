@@ -2999,6 +2999,18 @@ input[type=range]::-moz-focus-outer {
   .xsm\:pb-24 {
     padding-bottom: 6rem;
   }
+
+  .xsm\:pb-12 {
+    padding-bottom: 3rem;
+  }
+
+  .xsm\:mb-8 {
+    margin-bottom: 2rem;
+  }
+
+  .xsm\:pb-32 {
+    padding-bottom: 8rem;
+  }
 }
 
 .default-footer-flex {
@@ -3123,6 +3135,10 @@ input[type=range]::-moz-focus-outer {
 @media (min-width: 768px) {
   .md\:absolute {
     position: absolute;
+  }
+
+  .md\:pb-28{
+    padding-bottom: 7rem;
   }
 
   .md\:pb-0{
