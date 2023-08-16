@@ -1093,10 +1093,15 @@ select {
 
 /* Typography */
 
+.c-li2{
+  margin-bottom:1rem;
+
+}
+
 .c-ul{
   padding-left:1.5rem; 
   padding-top:2rem; 
-  line-height: 3rem; 
+  line-height: 3rem !important; 
   list-style-type:disc;
 }
 
@@ -2996,6 +3001,13 @@ input[type=range]::-moz-focus-outer {
     line-height: 1.33333 !important;
     letter-spacing: 0.03333em !important;
   }
+
+  .xsm\:text-sm {
+    font-size: 1.18rem !important;
+    line-height: 1.33333 !important;
+    letter-spacing: 0.03333em !important;
+  }
+
   .xsm\:pb-24 {
     padding-bottom: 6rem;
   }
