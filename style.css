@@ -919,7 +919,7 @@ select {
   width: 788.866px;
   height: 427.5px;
   margin-left: -1rem;
-  margin-right: 2rem;
+  margin-right: auto;
   margin-top: -.25rem;
 }
 
@@ -3119,6 +3119,10 @@ input[type=range]::-moz-focus-outer {
 @media (min-width: 768px) {
   .md\:absolute {
     position: absolute;
+  }
+
+  .md\:text-right{
+    text-align: right;
   }
 
   .md\:pb-28 {
