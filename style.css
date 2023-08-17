@@ -995,20 +995,21 @@ select {
   }
 
   .responsive-value {
-    margin-left: 3.5rem;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 1rem;
   }
 
   .responsive-support {
-    width: 400px;
-    height: 263px;
-    margin-left: 10rem;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 1rem;
     margin-bottom: 2rem;
   }
 
   .responsive-deal {
-    margin-left: 0rem;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: -1rem;
     margin-bottom: 2rem;
   }
@@ -1028,8 +1029,8 @@ select {
   }
 
   .responsive-support {
-    width: 300px;
-    height: 168.75px;
+    width: 350px;
+    height: 190px;
     margin-left: auto;
     margin-right: auto;
   }
