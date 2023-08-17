@@ -903,6 +903,8 @@ select {
   height: 450px;
   margin-top: -9rem;
   margin-left: 24rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
 .responsive-support {
