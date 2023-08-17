@@ -891,12 +891,37 @@ select {
   }
 }
 
-
 .responsive-svg {
   width: 603.088px;
   height: 397.128px;
   position: relative;
+  display: inline-block; 
+  vertical-align: middle; 
+  transition: transform 0.3s ease;
+  transform-style: preserve-3d; 
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
+
+.responsive-svg:nth-of-type(1) {
+  z-index: 1;
+  transform: perspective(500px) translateX(-10px) rotateY(40deg) scale(.8) !important;
+  box-shadow: 5px 0 15px rgba(0, 0, 0, 0.2);
+  margin-left:15rem;
+  margin-right: -15rem; 
+}
+
+.responsive-svg:nth-of-type(2) {
+  z-index: 2;
+  transform: perspective(500px)  rotateY(40deg) scale(.8)!important; 
+}
+
+.responsive-svg:hover {
+  transform: perspective(500px) translateX(-15px) rotateY(0deg) !important; 
+  z-index: 3;
+  box-shadow: 7px 0 20px rgba(0, 0, 0, 0.3);
+}
+
+
 
 .responsive-value {
   width: 830px;
@@ -927,17 +952,17 @@ select {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
-@media (min-width: 769px) and (max-width: 970px) {
+@media (min-width: 400px) and (max-width: 1400px) {
   .responsive-svg {
     display: none;
   }
 }
 
 @media (max-width: 1366px) {
-  .responsive-svg {
+  /* .responsive-svg {
     width: 650px;
     height: 428px;
-  }
+  } */
 
   .responsive-value {
     width: 750px;
@@ -962,10 +987,10 @@ select {
 }
 
 @media (max-width: 1112px) {
-  .responsive-svg {
+  /* .responsive-svg {
     width: 564px;
     height: 371px;
-  }
+  } */
 
   .responsive-value {
     width: 540px;
@@ -989,10 +1014,10 @@ select {
 }
 
 @media (max-width: 768px) {
-  .responsive-svg {
+  /* .responsive-svg {
     width: 400px;
     height: 263px;
-  }
+  } */
 
   .responsive-value {
     margin-left: auto;
@@ -1016,10 +1041,10 @@ select {
 }
 
 @media (max-width: 480px) {
-  .responsive-svg {
+  /* .responsive-svg {
     width: 282px;
     height: 186px;
-  }
+  } */
 
   .responsive-value {
     width: 350px;
@@ -3519,7 +3544,7 @@ input[type=range]::-moz-focus-outer {
     margin: -1rem;
   }
 
-  .xlg\:grid-gap-3{
+  .xl\:grid-gap-3{
     grid-column-gap: 6rem;
   }
 
