@@ -906,9 +906,9 @@ select {
 }
 
 .responsive-support {
-  width: 738.89px;
-  height: 415px;
-  margin-left: 18.5rem;
+  width: 830px;
+  height: 450px;
+  margin-left: 12.5rem;
   margin-top: .25rem;
   border-radius: 1rem;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
@@ -916,11 +916,13 @@ select {
 }
 
 .responsive-deal {
-  width: 788.866px;
-  height: 427.5px;
+  width: 830px;
+  height: 450px;
   margin-left: -1rem;
   margin-right: auto;
   margin-top: -.25rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
 @media (min-width: 769px) and (max-width: 970px) {
@@ -943,15 +945,15 @@ select {
   }
 
   .responsive-support {
-    width: 702px;
-    height: 394px;
+    width: 750px;
+    height: 412px;
     margin: 0;
-    margin-left: 2rem;
+    margin-left: -.5rem;
   }
 
   .responsive-deal {
-    width: 670px;
-    height: 360px;
+    width: 750px;
+    height: 412px;
     margin-left: -1rem;
     margin-top: 1rem;
   }
