@@ -990,7 +990,7 @@ select {
 }
 
 @media (min-width: 0px) and (max-width: 1400px) {
-  .responsive-svg {
+  .responsive-img {
     display: none;
   }
 }
