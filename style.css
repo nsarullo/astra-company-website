@@ -892,27 +892,28 @@ select {
 }
 
 .responsive-svg {
-  width: 603.088px;
-  height: 397.128px;
+  width: 830px;
+  height: 450px;
   position: relative;
   display: inline-block; 
   vertical-align: middle; 
   transition: transform 0.3s ease;
   transform-style: preserve-3d; 
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  margin-top: -3rem;
 }
 
 .responsive-svg:nth-of-type(1) {
   z-index: 1;
-  transform: perspective(500px) translateX(-10px) rotateY(40deg) scale(.8) !important;
+  transform: perspective(500px) translateX(-10px) rotateY(40deg) scale(.6) !important;
   box-shadow: 5px 0 15px rgba(0, 0, 0, 0.2);
-  margin-left:15rem;
-  margin-right: -15rem; 
+  margin-left:2rem;
+  margin-right: -35rem; 
 }
 
 .responsive-svg:nth-of-type(2) {
   z-index: 2;
-  transform: perspective(500px)  rotateY(40deg) scale(.8)!important; 
+  transform: perspective(500px)  rotateY(40deg) scale(.6)!important; 
 }
 
 .responsive-svg:hover {
