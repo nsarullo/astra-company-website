@@ -891,7 +891,7 @@ select {
   }
 }
 
-.responsive-svg {
+/* .responsive-svg {
   width: 830px;
   height: 450px;
   position: relative;
@@ -911,10 +911,6 @@ select {
   margin-right: -35rem; 
 }
 
-.responsive-svg:nth-of-type(2) {
-  z-index: 2;
-  transform: perspective(500px)  rotateY(40deg) scale(.6)!important; 
-}
 
 .responsive-svg:hover {
   transform: perspective(500px) translateX(-15px) rotateY(0deg) !important; 
@@ -922,6 +918,46 @@ select {
   box-shadow: 7px 0 20px rgba(0, 0, 0, 0.3);
 }
 
+.responsive-svg:nth-of-type(2) {
+  z-index: 2;
+} */
+
+.responsive-img {
+  width: 830px;
+  height: 450px;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  transition: transform 0.3s ease;
+  transform-style: preserve-3d;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  margin-top: -3rem;
+}
+
+#img1 {
+  z-index: 1;
+  box-shadow: 5px 0 15px rgba(0, 0, 0, 0.2);
+  margin-left: .5rem;
+  margin-right: -35rem;
+}
+
+#img2 {
+  z-index: 2;
+}
+
+#img1:hover + #img2 {
+  transform: perspective(500px) translateX(-10px) rotateY(20deg) scale(.6);
+  z-index: 2;
+  box-shadow: 5px 0 15px rgba(0, 0, 0, 0.2);
+  z-index:0;
+}
+
+
+#img1:not(:hover) {
+  transform: perspective(500px) translateX(-10px) rotateY(40deg) scale(.6);
+  z-index: 2;
+  box-shadow: 5px 0 15px rgba(0, 0, 0, 0.2);
+}
 
 
 .responsive-value {
