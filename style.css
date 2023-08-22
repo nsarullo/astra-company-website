@@ -960,6 +960,17 @@ select {
   box-shadow: 5px 0 15px rgba(0, 0, 0, 0.2);
 }
 
+.linkedIn{
+  border-radius: .1rem;
+}
+
+.responsive-contact-us{
+  margin-top: 4rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+
 
 .responsive-value {
   width: 830px;
@@ -973,7 +984,7 @@ select {
 .responsive-support {
   width: 747px;
   height: 405px;
-  margin-left: 12.5rem;
+  margin-left: 18rem;
   margin-top: .25rem;
   border-radius: 1rem;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
@@ -1013,7 +1024,7 @@ select {
     width: 712.5px;
     height: 391.4px;
     margin: 0;
-    margin-left: -.5rem;
+    margin-left: 1.5rem;
   }
 
   .responsive-deal {
@@ -1039,6 +1050,7 @@ select {
 
   .responsive-support {
     margin-top: 5rem;
+    margin-left:0rem;
     width: 540px;
     height: 293px;
   }
