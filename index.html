@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="./css/vendors/swiper-bundle.min.css" />
     <link rel="icon" type="image/x-icon" href="./assets/images/icons/nuvos.ico">
     <link href="./style.css" rel="stylesheet">
+    <script>
+        if (window.history.replaceState && window.location.pathname.endsWith('.html')) {
+            var newPath = window.location.pathname.slice(0, -5);
+            window.history.replaceState({}, '', newPath);
+        }
+    </script>
 </head>
 
 <body class="font-aspekta antialiased bg-white text-slate-800 font-[350]">
@@ -661,21 +667,21 @@
                                 <div class="text-xl text-slate-800 font-bold text-left mb-4">Who are our founders?
                                 </div>
                                 <p class="text-slate-500">
-                                    <div style="display: flex; justify-content: start; align-items: center; gap:.5rem;"
-                                        class="text-slate-500">
-                                        Grant Uberstine: Co-Founder & CEO
-                                        <a href="https://www.linkedin.com/in/grantuberstine/" target="_blank">
-                                            <img class="linkedIn" src="./assets/images/icons/image.png" width="17rem"></a>
-                                    </div>
-                                    <div style="display: flex; justify-content: start; align-items: center; gap:.57rem;"
-                                        class="text-slate-500">
-    
-                                        Jeremy Serapio: Co-Founder & CTO
-    
-                                        <a href="https://www.linkedin.com/in/jeremyserapio/" target="_blank">
-                                            <img class="linkedIn" src="./assets/images/icons/image.png" width="17rem"></a>
-                                        </a>
-                                    </div>
+                                <div style="display: flex; justify-content: start; align-items: center; gap:.5rem;"
+                                    class="text-slate-500">
+                                    Grant Uberstine: Co-Founder & CEO
+                                    <a href="https://www.linkedin.com/in/grantuberstine/" target="_blank">
+                                        <img class="linkedIn" src="./assets/images/icons/image.png" width="17rem"></a>
+                                </div>
+                                <div style="display: flex; justify-content: start; align-items: center; gap:.57rem;"
+                                    class="text-slate-500">
+
+                                    Jeremy Serapio: Co-Founder & CTO
+
+                                    <a href="https://www.linkedin.com/in/jeremyserapio/" target="_blank">
+                                        <img class="linkedIn" src="./assets/images/icons/image.png" width="17rem"></a>
+                                    </a>
+                                </div>
                                 </p>
                             </div>
                             <div class="mb-5">
@@ -695,7 +701,8 @@
                                 </p>
                             </div>
                             <div class="mb-5">
-                                <div class="text-xl text-slate-800 font-bold text-left mb-4">Can you join our Beta program?
+                                <div class="text-xl text-slate-800 font-bold text-left mb-4">Can you join our Beta
+                                    program?
                                 </div>
                                 <p class="text-slate-500">
                                     Yes, please contact us, and you can join our Beta program for free
@@ -711,10 +718,12 @@
                                 </p>
                             </div>
                             <div class="mb-5">
-                                <div class="text-xl text-slate-800 font-bold text-left mb-4">Will Nuvos make you a better investor?
+                                <div class="text-xl text-slate-800 font-bold text-left mb-4">Will Nuvos make you a
+                                    better investor?
                                 </div>
                                 <p class="text-slate-500">
-                                    While we can't guarantee this, it's the digital equivalent of a wise owl by your side
+                                    While we can't guarantee this, it's the digital equivalent of a wise owl by your
+                                    side
                                 </p>
                             </div>
                         </div>
