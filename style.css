@@ -931,12 +931,13 @@ select {
   transition: transform 0.3s ease;
   transform-style: preserve-3d;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 5px 0 15px rgba(0, 0, 0, 0.2); */
+  border-radius: 1rem;
   margin-top: -3rem;
 }
 
 #img1 {
   z-index: 1;
-  box-shadow: 5px 0 15px rgba(0, 0, 0, 0.2);
   margin-left: .5rem;
   margin-right: -35rem;
 }
@@ -970,8 +971,8 @@ select {
 }
 
 .responsive-support {
-  width: 830px;
-  height: 450px;
+  width: 747px;
+  height: 405px;
   margin-left: 12.5rem;
   margin-top: .25rem;
   border-radius: 1rem;
@@ -1009,8 +1010,8 @@ select {
   }
 
   .responsive-support {
-    width: 750px;
-    height: 412px;
+    width: 712.5px;
+    height: 391.4px;
     margin: 0;
     margin-left: -.5rem;
   }
@@ -1038,8 +1039,8 @@ select {
 
   .responsive-support {
     margin-top: 5rem;
-    width: 561.6px;
-    height: 315.2px;
+    width: 540px;
+    height: 293px;
   }
 
   .responsive-deal {
@@ -1047,6 +1048,12 @@ select {
     height: 292.5px;
     margin-right: 0rem;
     margin-left: -1rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1100px) {
+  .responsive-support {
+    display: none;
   }
 }
 
@@ -3059,6 +3066,12 @@ input[type=range]::-moz-focus-outer {
     padding-bottom: 6rem;
   }
 
+  .xsm\:py-0 {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+
+
   .xsm\:pb-12 {
     padding-bottom: 3rem;
   }
@@ -3069,6 +3082,10 @@ input[type=range]::-moz-focus-outer {
 
   .xsm\:pb-32 {
     padding-bottom: 8rem;
+  }
+
+  .xsm\:grid-gap-3 {
+    gap: 0rem;
   }
 }
 
@@ -3208,6 +3225,10 @@ input[type=range]::-moz-focus-outer {
     padding-bottom: 0rem;
   }
 
+  .md\:py-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
 
   .md\:text-2xl {
     font-size: 1.5rem;
@@ -3582,7 +3603,7 @@ input[type=range]::-moz-focus-outer {
   }
 
   .xl\:grid-gap-3{
-    grid-column-gap: 6rem;
+    grid-column-gap: 7rem;
   }
 
   .xl\:w-\[512px\] {
