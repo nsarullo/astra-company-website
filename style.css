@@ -1005,6 +1005,7 @@ select {
   }
 }
 
+
 @media (max-width: 1366px) {
   .responsive-value {
     width: 664px;
@@ -3631,9 +3632,9 @@ input[type=range]::-moz-focus-outer {
 }
 
 @media (min-width:1915px) {
-  .xl2\:max-w-2lg {
+  /* .xl2\:max-w-2lg {
     max-width: 46rem !important;
-  }
+  } */
 
   .xl2\:max-w-2lg li {
     margin-top: 2.5rem !important;
