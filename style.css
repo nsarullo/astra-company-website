@@ -921,25 +921,23 @@ select {
 .responsive-svg:nth-of-type(2) {
   z-index: 2;
 } */
-
 .responsive-img {
-  width: 830px;
-  height: 450px;
+  width: 676px;
+  height: 367px;
   position: relative;
   display: inline-block;
   vertical-align: middle;
   transition: transform 0.3s ease;
   transform-style: preserve-3d;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-  /* box-shadow: 5px 0 15px rgba(0, 0, 0, 0.2); */
   border-radius: 1rem;
-  margin-top: -3rem;
+  margin-top: -1rem;
 }
 
 #img1 {
   z-index: 1;
   margin-left: .5rem;
-  margin-right: -35rem;
+  margin-right: -31.3rem;
 }
 
 #img2 {
@@ -972,34 +970,34 @@ select {
 
 
 
+
 .responsive-value {
-  width: 830px;
-  height: 450px;
-  margin-top: -9rem;
-  margin-left: 24rem;
+  width: 735px;
+  height: 399px;
+  margin-top: -7.97rem;
+  margin-left: 13.3rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.responsive-deal {
+  width: 735px;
+  height: 399px;
+  margin-right: auto;
+  margin-top: -0.22rem;
   border-radius: 1rem;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
 .responsive-support {
-  width: 747px;
-  height: 405px;
-  margin-left: 18rem;
-  margin-top: .25rem;
-  border-radius: 1rem;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-
-}
-
-.responsive-deal {
-  width: 830px;
-  height: 450px;
-  margin-left: -1rem;
-  margin-right: auto;
-  margin-top: -.25rem;
+  width: 662px;
+  height: 358px;
+  margin-left: 7.3rem;
+  margin-top: .22rem;
   border-radius: 1rem;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
+
 
 @media (min-width: 0px) and (max-width: 1400px) {
   .responsive-img {
@@ -1008,58 +1006,46 @@ select {
 }
 
 @media (max-width: 1366px) {
-  /* .responsive-svg {
-    width: 650px;
-    height: 428px;
-  } */
-
   .responsive-value {
-    width: 750px;
-    height: 412px;
-    margin-top: -7rem;
-    margin-left: 10rem;
-  }
-
-  .responsive-support {
-    width: 712.5px;
-    height: 391.4px;
-    margin: 0;
-    margin-left: 1.5rem;
+    width: 664px;
+    height: 365px;
+    margin-top: -6.19rem;
+    margin-left: 15rem;
   }
 
   .responsive-deal {
-    width: 750px;
-    height: 412px;
-    margin-left: -1rem;
-    margin-top: 1rem;
+    width: 664px;
+    height: 365px;    
+    margin-top: 0.88rem;
   }
+
+  .responsive-support {
+    width: 631px;
+    height: 346px;
+    margin-left: 6.6rem;
+  }
+
 }
 
 @media (max-width: 1112px) {
-  /* .responsive-svg {
-    width: 564px;
-    height: 371px;
-  } */
-
   .responsive-value {
-    width: 540px;
-    height: 293px;
-    margin-top: -3rem;
-    margin-left: 7rem;
+    width: 478px;
+    height: 259px;
+    margin-top: -2.65rem;
+    margin-left: 10.8rem;
   }
 
   .responsive-support {
-    margin-top: 5rem;
-    margin-left:0rem;
-    width: 540px;
-    height: 293px;
+    margin-top: 4.42rem;
+    margin-left: .3rem;
+    width: 478px;
+    height: 259px;
   }
 
   .responsive-deal {
-    width: 540px;
-    height: 292.5px;
+    width: 478px;
+    height: 259px;
     margin-right: 0rem;
-    margin-left: -1rem;
   }
 }
 
@@ -1070,59 +1056,50 @@ select {
 }
 
 @media (max-width: 768px) {
-  /* .responsive-svg {
-    width: 400px;
-    height: 263px;
-  } */
-
   .responsive-value {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1rem;
+    margin-top: 0.88rem;
   }
 
   .responsive-support {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-top: 0.88rem;
+    margin-bottom: 1.76rem;
   }
 
   .responsive-deal {
     margin-left: auto;
     margin-right: auto;
-    margin-top: -1rem;
-    margin-bottom: 2rem;
+    margin-top: -0.88rem;
+    margin-bottom: 1.76rem;
   }
 }
 
 @media (max-width: 480px) {
-  /* .responsive-svg {
-    width: 282px;
-    height: 186px;
-  } */
-
   .responsive-value {
-    width: 350px;
-    height: 190px;
+    width: 310px;
+    height: 168px;
     margin-left: auto;
     margin-right: auto;
   }
 
   .responsive-support {
-    width: 350px;
-    height: 190px;
+    width: 310px;
+    height: 168px;
     margin-left: auto;
     margin-right: auto;
   }
 
   .responsive-deal {
-    width: 350px;
-    height: 190px;
+    width: 310px;
+    height: 168px;
     margin-left: auto;
     margin-right: auto;
   }
 }
+
 
 
 
@@ -1975,7 +1952,7 @@ input[type=range]::-moz-focus-outer {
 }
 
 .max-w-10xl {
-  max-width: 104rem;
+  max-width: 88rem;
 }
 
 .max-w-full {
