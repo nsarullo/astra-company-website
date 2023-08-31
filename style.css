@@ -3402,7 +3402,9 @@ input[type=range]::-moz-focus-outer {
     width: 500px;
   }
 
-
+  #learn-more-button{
+    cursor: pointer !important;
+  }
   .md\:w-1\/2 {
     width: 50%;
   }
