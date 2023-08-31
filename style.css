@@ -3078,6 +3078,10 @@ input[type=range]::-moz-focus-outer {
     padding-bottom: 6rem;
   }
 
+  .xsm\:mb-4 {
+    margin-bottom: 2rem;
+  }
+
   .xsm\:pb-19 {
     padding-bottom: 4.75rem;
   }
@@ -3277,6 +3281,15 @@ input[type=range]::-moz-focus-outer {
   .md\:top-0 {
     top: 0px;
   }
+
+  .md\:mb-8 {
+    margin-bottom: 2rem;
+  }
+
+  .md\:mb-0 {
+    margin-bottom: 0rem;
+  }
+  
 
   .md\:top-1-35r {
     top: 1.35rem;
