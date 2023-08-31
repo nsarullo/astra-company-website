@@ -11,6 +11,8 @@
 </head>
 
 <body class="font-aspekta antialiased bg-white text-slate-800 font-[350]">
+    <div id="overlay" class="overlay"></div>
+    <div id="custom-alert" class="custom-alert">Form Submitted</div>
 
     <!-- Page wrapper -->
     <div class="flex flex-col min-h-screen overflow-hidden">
@@ -70,7 +72,7 @@
                                     <div class="w-full max-w-[480px] mx-auto lg:w-[480px] lg:max-w-none lg:mx-0 xl:w-[512px] bg-white p-6 shadow-2xl"
                                         data-aos="fade-up" data-aos-delay="100">
                                         <!-- Form -->
-                                        <form>
+                                        <form id="contact-us-form">
                                             <div class="space-y-4">
                                                 <div class="sm:flex items-start justify-between sm:space-x-4">
                                                     <label
@@ -145,8 +147,8 @@
                                                 </div>
                                             </div>
                                             <div class="mt-6 md:text-right">
-                                                <button
-                                                    class="btn-sm inline-flex items-center text-blue-50 bg-blue-500 hover:bg-blue-600 group shadow-sm" style="width:8rem;">Submit
+                                                <button onclick="onClickSubmitForm()" type="button"
+                                                    class="btn-sm inline-flex items-center text-blue-50 bg-blue-500 hover:bg-blue-600 group shadow-sm" style="width:8rem;"><strong>Submit</strong>
                                                     </button>
                                             </div>
                                         </form>
