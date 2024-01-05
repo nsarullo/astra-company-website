@@ -1030,7 +1030,7 @@ select {
     width: 631px;
     height: 346px;
     /* margin-left: 6.6rem; */
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
   }
 
 }
@@ -3297,7 +3297,7 @@ input[type=range]::-moz-focus-outer {
   }
 }
 
-@media (min-width: 900px){
+@media (min-width: 1050px){
   .lgmd\:flex-row{
     flex-direction: row;
   }
