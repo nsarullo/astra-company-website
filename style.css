@@ -3087,6 +3087,10 @@ input[type=range]::-moz-focus-outer {
 
 @media (min-width: 320px) {
 
+  .xsm\:img-text {
+    min-height: 40rem;
+  }
+
   .xsm\:flex-col {
     flex-direction: column;
   }
@@ -3166,6 +3170,10 @@ input[type=range]::-moz-focus-outer {
 }
 
 @media (min-width: 640px) {
+
+  .sm\:img-text {
+    min-height: initial;
+  }
 
   .sm\:footer-flex {
     display: flex;
