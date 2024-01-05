@@ -6,4 +6,7 @@ $('.carousel').slick({
     pauseOnFocus: true,
     infinite: true,
     slickPause: true,
+    // MOBILE BELOW
+    swipe: true,
+    touchMove: true,
   });
