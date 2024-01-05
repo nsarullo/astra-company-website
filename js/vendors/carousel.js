@@ -1,6 +1,6 @@
 $('.carousel').slick({
     dots: true,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 5000,
     arrows:false,
     pauseOnFocus: true,

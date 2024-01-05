@@ -976,6 +976,7 @@ select {
   height: 399px;
   /* margin-top: -7.97rem; */
   /* margin-left: 13.3rem; */
+  margin-top: -1.5rem;
   border-radius: 1rem;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
@@ -983,6 +984,7 @@ select {
 .responsive-deal {
   width: 735px;
   height: 399px;
+  margin-top: -1.5rem;
   /* margin-right: auto;
   margin-top: -0.22rem; */
   border-radius: 1rem;
@@ -990,10 +992,14 @@ select {
 }
 
 .responsive-support {
-  width: 645.35px;
+  /* width: 645.35px;
   height: 349.15px;
+   */
+   width: 735px;
+   height: 399px;
   /* margin-left: 7.3rem;
   margin-top: .22rem; */
+  margin-top: -1rem;
   border-radius: 1rem;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
@@ -1024,6 +1030,7 @@ select {
     width: 631px;
     height: 346px;
     /* margin-left: 6.6rem; */
+    margin-top: 4rem;
   }
 
 }
@@ -1068,6 +1075,7 @@ select {
     margin-right: auto; */
     /* margin-top: 0.88rem;
     margin-bottom: 1.76rem; */
+    margin-top:-1.5rem;
   }
 
   .responsive-deal {
@@ -1079,9 +1087,12 @@ select {
 }
 
 @media (max-width: 480px) {
+
+
   .responsive-value {
     width: 310px;
     height: 168px;
+    margin-top: 0rem;
     /* margin-left: auto;
     margin-right: auto; */
   }
@@ -1098,6 +1109,22 @@ select {
     width: 310px;
     height: 168px;
     margin-top: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+  }
+}
+
+@media (min-width: 400px) and (max-width: 500px) {
+  .responsive-support {
+    width: 310px;
+    height: 168px;
+    margin-top: 0.4rem;
+    /* margin-left: auto;
+    margin-right: auto; */
+  }
+
+  .responsive-value {
+    margin-top: -.3rem;
     /* margin-left: auto;
     margin-right: auto; */
   }
