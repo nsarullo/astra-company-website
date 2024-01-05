@@ -1086,16 +1086,18 @@ select {
     margin-right: auto; */
   }
 
-  .responsive-support {
+  .responsive-deal {
     width: 310px;
     height: 168px;
+    margin-top: 1rem;
     /* margin-left: auto;
     margin-right: auto; */
   }
 
-  .responsive-deal {
+  .responsive-support {
     width: 310px;
     height: 168px;
+    margin-top: 8rem;
     /* margin-left: auto;
     margin-right: auto; */
   }
@@ -3087,9 +3089,6 @@ input[type=range]::-moz-focus-outer {
 
 @media (min-width: 320px) {
 
-  .xsm\:img-text {
-    min-height: 42rem;
-  }
 
   .xsm\:flex-col {
     flex-direction: column;
@@ -3170,11 +3169,6 @@ input[type=range]::-moz-focus-outer {
 }
 
 @media (min-width: 640px) {
-
-  .sm\:img-text {
-    min-height: initial;
-  }
-
   .sm\:footer-flex {
     display: flex;
     flex-direction: row;
