@@ -1128,6 +1128,13 @@ select {
     /* margin-left: auto;
     margin-right: auto; */
   }
+
+}
+
+@media (min-width: 380px) and (max-width: 400px) {
+  .responsive-deal{
+    margin-top: 2rem;
+  }
 }
 
 
